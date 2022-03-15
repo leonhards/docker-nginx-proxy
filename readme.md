@@ -35,5 +35,5 @@ php_value post_max_size 20M
 php_value max_execution_time 300
 php_value max_input_time 300
 ```
-3. Save changes and refresh WP dashboard.
+3. Save changes.
 
