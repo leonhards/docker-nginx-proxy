@@ -9,7 +9,7 @@ Run the docker-compose file:
 
 ## Fixing '413 request entity too large' Error:
 
-Step-by-step to solve this issue:
+Step-by-step to solve the issue:
 
 1. Run the docker CLI for 'nginx-proxy' or run this command:
 <br><code>$ docker exec -it &lt;container&gt; bash</code>
