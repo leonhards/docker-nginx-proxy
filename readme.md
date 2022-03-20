@@ -19,7 +19,7 @@ Step-by-step to solve the issue:
 3. Edit the nginx.conf file using this command:<br>
 <code># vim /etc/nginx/nginx.conf</code>
 4. Add the following parameter in nginx.conf file:
-<br><code>client_max_body_size 20M;</code>
+<br><code>client_max_body_size 64M;</code>
 5. Press Esc button on your keyboard and type <code>:wq</code> to save changes and hit Enter.
 6. Restart 'nginx-proxy' container.
 
@@ -30,8 +30,8 @@ Step-step to solve the issue:
 1. Edit .htaccess file.
 2. Add following code at the bottom of .htaccess file:
 ```php
-php_value upload_max_filesize 20M
-php_value post_max_size 20M
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
 php_value max_execution_time 300
 php_value max_input_time 300
 ```
